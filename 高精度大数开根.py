@@ -1,3 +1,4 @@
+# 此为Python大神Jerry所编写，拒绝转载。
 def big_sqrt(n):
     lst = []
     res = []
@@ -23,6 +24,3 @@ def big_sqrt(n):
         remind = (remind - (a * 20 + b) * b) * 100 + q
         a = int(''.join([str(i) for i in res]))
     return a
-
-
-print(big_sqrt(200000000000000000000))
